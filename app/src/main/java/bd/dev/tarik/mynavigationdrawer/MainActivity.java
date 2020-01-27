@@ -1,5 +1,6 @@
 package bd.dev.tarik.mynavigationdrawer;
 
+import android.os.Build;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -27,6 +28,14 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+        // Check if we're running on Android 5.0 or higher
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            // Call some material design APIs here
+        } else { // For Below API 21
+            // Implement this feature without material design
+        }
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolbar);

@@ -3,4 +3,19 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+
+    <color name="textColorSecondary">#FFFFFF</color><!--  Navigation Arrow & Overflow Icon Color -->
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="textColorPrimary">#FFFFFF</color><!--  Action Bar or ToolBar Color -->
+    <color name="navigationBarColor">#000000</color><!--  Bottom soft navigation Bar Color -->
+    <color name="colorControlHighlight">#FFFFFF</color><!--ripple animation-->
+    <color name="colorControlNormal">#FFFFFF</color><!--Checkbox Off or Switch Off provide its default color-->
+    <color name="colorControlActivated">#FFFFFF</color><!--Color of Checkbox On or Switch On its default colorAccent Or set custom colorControlActivated-->
+    <color name="colorButtonNormal">#085</color><!--Checkbox Off or Switch Off provide its default color-->
+
+    <!--
+    These are some of the attributes present inside our color palette that we can use to provide colors to various kinds of widgets present in our application
+    Color palette
+    -->
+
 </resources>

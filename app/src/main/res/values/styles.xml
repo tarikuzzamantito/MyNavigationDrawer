@@ -1,14 +1,24 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
+    <style name="MaterialTheme" parent="ParentMaterialTheme">
+
+    </style>
+
+    <style name="ParentMaterialTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Parent theme for all Pre-Lollipop and Lollipop above versions i.e. For all devices. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        &lt;!&ndash; Parent theme for all Pre-Lollipop and Lollipop above versions i.e. For all devices. &ndash;&gt;
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>-->
 
-    <style name="AppTheme.NoActionBar">
+    <style name="MaterialTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>

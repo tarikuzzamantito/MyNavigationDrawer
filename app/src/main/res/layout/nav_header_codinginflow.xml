@@ -1,28 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="196sp"
-    android:background="@color/colorAccent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimaryDark"
     android:gravity="bottom"
     android:padding="16sp"
     android:theme="@style/ThemeOverlay.AppCompat.Dark"
     android:orientation="vertical">
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@mipmap/ic_launcher_round"/>
+    <!--android:background="@drawable/avator_background"-->
+    <!--<ImageView
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:src="@drawable/icons_profile"
+        tools:ignore="ContentDescription" />-->
+    <bd.dev.tarik.mynavigationdrawer.circular_image_view.CircleImageView
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:src="@drawable/avatar"
+        app:strokeWidth="1dp"
+        app:strokeColor="@android:color/white"
+        tools:ignore="ContentDescription" />
+
+
+    <!--<bd.dev.tarik.mynavigationdrawer.circular_image_view.AvatarImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/figure"
+        android:onClick="onAClick"
+        app:avatarBackgroundColor="@{bgColor}"
+        app:text="@{myName}"
+        app:textSize="22sp"
+        app:strokeWidth="1dp"
+        app:strokeColor="@android:color/white"/>-->
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingTop="8sp"
-        android:text="Coding in Flow"
+        android:text="Md.Tarikuzzaman"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="info@codinginflow.com"/>
+        android:text="Database Specialist, ROSC-II MIS Cell, LGED"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"/>
 
 </LinearLayout>
